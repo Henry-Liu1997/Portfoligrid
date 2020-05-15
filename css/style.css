@@ -1,0 +1,30 @@
+img {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  background-color: #522d5b;
+}
+
+.intro {
+  background-color: #d7385e;
+}
+
+.port-item {
+  width: 30%;
+}
+
+.port-item :hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (min-width: 1190px) {
+  .port-item {
+    padding: 39px !important;
+  }
+}
+
+#main-footer {
+  background-color: #522d5b;
+}
